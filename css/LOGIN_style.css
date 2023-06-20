@@ -1,0 +1,88 @@
+body, html {
+  margin: 0px;
+  /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: monospace;
+    background:#282a2d;
+    color: white;
+  }
+.new-login:visited,.new-login:link{
+  text-decoration:none;
+  color: #FFFF;
+}
+.new-login{
+  background-color: #005197;
+  padding: 5px 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.new-login:hover{
+  background-color: #0c5ca3;
+}
+.new-login:active{
+  background:#bb4336
+
+}
+::placeholder{
+  color:#FFF
+
+}
+
+
+.handel-form{
+  width: 100%;
+  height: 100%;
+}
+
+.subint-btn{
+  font-family: monospace;
+  text-transform: capitalize;
+  width: 100px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #005197;
+  margin-top: 30px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.subint-btn:hover{
+  background-color: #0c5ca3;
+
+
+}
+  .log-in{
+    text-align: center;
+    background-color: #282a2d;
+
+  }
+
+  .input-data{
+    transition: 0.2s;
+    padding: 5px 8px;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #282a2d;
+    border-radius: 2px;
+    border-bottom: 2px solid #f8cb4a;
+    margin: 4px 0px ;
+  }
+
+  .input-data:focus{
+  border-bottom: 2px solid #a09d66;
+  text-indent: 10px
+}
+
+.subint-btn:focus{
+
+  background:#bb4336
+
+}
+input:focus{
+  outline: none;
+}
+
+
+
